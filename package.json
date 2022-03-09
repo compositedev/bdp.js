@@ -42,7 +42,7 @@
   },
   "dependencies": {
     "@ethereum-navigator/navigator": "^0.5.2",
-    "@oceanprotocol/contracts": "git+https://github.com/compositedev/contracts.git",
+    "@oceanprotocol/contracts": "git+https://github.com/compositedev/contracts.git#v0.5.16-bdp",
     "@types/crypto-js": "^4.0.1",
     "cross-fetch": "^3.1.2",
     "crypto-js": "^4.0.0",
