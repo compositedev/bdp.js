@@ -1,7 +1,7 @@
 {
   "name": "@oceanprotocol/lib",
   "version": "0.12.2",
-  "description": "JavaScript client library for Ocean Protocol",
+  "description": "JavaScript client library for Big Data Protocol",
   "main": "./dist/node/lib.js",
   "typings": "./dist/node/lib.d.ts",
   "unpkg": "./dist/browser/lib.cjs2.min.js",
@@ -28,7 +28,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/oceanprotocol/ocean.js.git"
+    "url": "git+https://github.com/compositedev/bdp.js.git"
   },
   "keywords": [],
   "author": "Ocean Protocol <devops@oceanprotocol.com>",
@@ -42,7 +42,7 @@
   },
   "dependencies": {
     "@ethereum-navigator/navigator": "^0.5.2",
-    "@oceanprotocol/contracts": "^0.5.10",
+    "@oceanprotocol/contracts": "git+https://github.com/compositedev/contracts.git",
     "@types/crypto-js": "^4.0.1",
     "cross-fetch": "^3.1.2",
     "crypto-js": "^4.0.0",
