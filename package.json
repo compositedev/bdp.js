@@ -83,7 +83,7 @@
     "mocha": "^8.2.1",
     "mock-local-storage": "^1.1.15",
     "nyc": "^15.1.0",
-    "ora": "^5.2.0",
+    "ora": "^6.1.0",
     "prettier": "^2.2.1",
     "release-it": "^14.2.2",
     "source-map-support": "^0.5.19",
