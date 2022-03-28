@@ -77,7 +77,7 @@ export const configHelperNetworks: ConfigHelperConfig[] = [
     network: 'mainnet',
     nodeUri: 'https://mainnet.infura.io/v3',
     providerUri: 'https://provider.bigdataprotocolmarket.com',
-    subgraphUri: 'https://query.bigdataprotocolmarket.com',
+    subgraphUri: 'https://subgraph.mainnet.bigdataprotocolmarket.com:8000/',
     explorerUri: 'https://etherscan.io',
     startBlock: 11105459,
     transactionBlockTimeout: 150,
