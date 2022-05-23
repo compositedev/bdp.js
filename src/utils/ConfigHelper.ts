@@ -57,7 +57,7 @@ export const configHelperNetworks: ConfigHelperConfig[] = [
     network: 'ropsten',
     nodeUri: 'https://ropsten.infura.io/v3',
     providerUri: 'https://provider.ropsten.oceanprotocol.com',
-    subgraphUri: 'https://subgraph.ropsten.oceanprotocol.com',
+    subgraphUri: 'https://rinkeby.subgraph.v3.staging.bigdataprotocolmarket.com',
     explorerUri: 'https://ropsten.etherscan.io',
     startBlock: 9227563
   },
