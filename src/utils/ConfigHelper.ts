@@ -69,7 +69,9 @@ export const configHelperNetworks: ConfigHelperConfig[] = [
     providerUri: 'https://rinkeby.provider.v3.staging.bigdataprotocolmarket.com',
     subgraphUri: 'https://rinkeby.subgraph.v3.staging.bigdataprotocolmarket.com',
     explorerUri: 'https://rinkeby.etherscan.io',
-    startBlock: 7294090
+    startBlock: 7294090,
+    oceanTokenAddress: '0x8406de314ce609ff8228193b2535f13527917803',
+    oceanTokenSymbol: 'BDP'
   },
   {
     ...configHelperNetworksBase,
@@ -83,7 +85,9 @@ export const configHelperNetworks: ConfigHelperConfig[] = [
     transactionBlockTimeout: 150,
     transactionConfirmationBlocks: 5,
     transactionPollingTimeout: 1750,
-    gasFeeMultiplier: 1.05
+    gasFeeMultiplier: 1.05,
+    oceanTokenAddress: '0xf3dcbc6D72a4E1892f7917b7C43b74131Df8480e',
+    oceanTokenSymbol: 'BDP'    
   },
   {
     ...configHelperNetworksBase,
