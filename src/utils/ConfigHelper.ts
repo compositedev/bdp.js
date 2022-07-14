@@ -26,7 +26,7 @@ const configHelperNetworksBase: ConfigHelperConfig = {
   subgraphUri: null,
   explorerUri: null,
   oceanTokenAddress: null,
-  oceanTokenSymbol: 'OCEAN',
+  oceanTokenSymbol: 'BDP',
   factoryAddress: '0x1234',
   poolFactoryAddress: null,
   fixedRateExchangeAddress: null,
@@ -71,7 +71,7 @@ export const configHelperNetworks: ConfigHelperConfig[] = [
     explorerUri: 'https://rinkeby.etherscan.io',
     metadataCacheUri: 'https://aquarius.v3.staging.bigdataprotocolmarket.com',
     startBlock: 7294090,
-    oceanTokenAddress: '0x8406de314ce609ff8228193b2535f13527917803',
+    oceanTokenAddress: '0xB71cE5462677e24290e9003e2FA5FeDb7f5E4145',
     oceanTokenSymbol: 'BDP'
   },
   {
