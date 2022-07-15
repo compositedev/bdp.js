@@ -67,7 +67,7 @@ export const configHelperNetworks: ConfigHelperConfig[] = [
     network: 'rinkeby',
     nodeUri: 'https://rinkeby.infura.io/v3',
     providerUri: 'https://rinkeby.provider.v3.staging.bigdataprotocolmarket.com',
-    subgraphUri: 'https://rinkeby.subgraph.v3.staging.bigdataprotocolmarket.com',
+    subgraphUri: 'https://rinkeby.subgraph.v3.dev.bigdataprotocolmarket.com',
     explorerUri: 'https://rinkeby.etherscan.io',
     metadataCacheUri: 'https://aquarius.v3.staging.bigdataprotocolmarket.com',
     startBlock: 7294090,
