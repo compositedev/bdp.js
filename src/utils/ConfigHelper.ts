@@ -20,7 +20,7 @@ export interface ConfigHelperConfig extends Config {
 const configHelperNetworksBase: ConfigHelperConfig = {
   networkId: null,
   network: 'unknown',
-  metadataCacheUri: 'https://aquarius.v3.staging.bigdataprotocolmarket.com', 
+  metadataCacheUri: 'https://aquarius.v3.dev.bigdataprotocolmarket.com', 
   nodeUri: 'http://localhost:8545',
   providerUri: 'http://127.0.0.1:8030',
   subgraphUri: null,
@@ -66,10 +66,10 @@ export const configHelperNetworks: ConfigHelperConfig[] = [
     networkId: 4,
     network: 'rinkeby',
     nodeUri: 'https://rinkeby.infura.io/v3',
-    providerUri: 'https://rinkeby.provider.v3.staging.bigdataprotocolmarket.com',
+    providerUri: 'https://rinkeby.provider.v3.dev.bigdataprotocolmarket.com',
     subgraphUri: 'https://rinkeby.subgraph.v3.dev.bigdataprotocolmarket.com',
     explorerUri: 'https://rinkeby.etherscan.io',
-    metadataCacheUri: 'https://aquarius.v3.staging.bigdataprotocolmarket.com',
+    metadataCacheUri: 'https://aquarius.v3.dev.bigdataprotocolmarket.com',
     startBlock: 7294090,
     oceanTokenAddress: '0xB71cE5462677e24290e9003e2FA5FeDb7f5E4145',
     oceanTokenSymbol: 'BDP'
