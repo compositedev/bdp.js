@@ -71,7 +71,7 @@ export const configHelperNetworks: ConfigHelperConfig[] = [
     explorerUri: 'https://rinkeby.etherscan.io',
     metadataCacheUri: 'https://aquarius.v3.staging.bigdataprotocolmarket.com',
     startBlock: 7294090,
-    oceanTokenAddress: '0xB71cE5462677e24290e9003e2FA5FeDb7f5E4145',
+    oceanTokenAddress: '0xeaDfc783db8FD49Ef20b763927772e22065c271c',
     oceanTokenSymbol: 'BDP'
   },
   {
