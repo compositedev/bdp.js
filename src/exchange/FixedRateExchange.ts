@@ -132,6 +132,7 @@ export class OceanFixedRateExchange {
       }
       let exchangeId = null
       let trxReceipt = null
+      this.logger.log(`We are trying to create base token ${baseToken} and ${dataToken}`)
       try {
         trxReceipt = await this.contract.methods
           .create(baseToken, dataToken, this.web3.utils.toWei(rate))
